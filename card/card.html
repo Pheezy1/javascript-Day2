@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <img src="/Assignments/images/logo 2.jpeg" alt="logo" width="50px" height="50px">
+        </div>
+        <!-- navbar -->
+         <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a id="product">Products</a>
+                    <select id="products">
+                        <option value="1" selected disabled>choose</option>
+                        <option value="2">Free</option>
+                        <option value="3">Pro</option>
+                        <option value="4">Team</option>
+                        <option value="5">Enterprise</option>
+                    </select>
+                </li>
+            </ul>
+         </nav>
+
+         <!-- cta btn -->
+          <button class="btn2">Reach Out</button>
+    </header>
+    <main>
+        <!-- pricing cards will be displayed here -->
+        <div class="pricing">
+            <div class="pricing-container">
+
+            <!-- card 1: Free Plan -->
+
+            <div class="pricing-card">
+                <h4>FREE</h4>
+                <p class="desc">Perfect for passion & simple websites.</p>
+                <button class="btn">Start for Free</button>
+                <div class="price">$0 <span class="amount">/ month</span></div>
+                <hr>
+                <figure>
+                    <figcaption>Get started with:</figcaption>
+                    <ul class="features">
+                        <li>Unlimited API requests</li>
+                        <li>50,000 monthly active users</li>
+                        <li>500 MB database size <span>Shared CPU <strong>&bull;</strong> 500 MB RAM</span></li>
+                        <li>5 GB egress</li>
+                        <li>5 GB cached egress</li>
+                        <li>1 GB file storage</li>
+                        <li>Community support</li>
+                    </ul>
+                </figure>
+                <p class="free">Free projects are paused after 1 week of inactivity. Limit of 2 active projects.</p>
+            </div>
+
+            <!-- card 2: Pro (Most popular) Plan -->
+
+            <div class="pricing-card popular">
+                <h4 class="pro">PRO <span class="badge">Most Popular</span></h4>
+                <p class="desc">For production applications with the power to scale.</p>
+                <button class="btn">Get Started</button>
+                <span>From</span>
+                <div class="price">$25 <span class="amount">/ month</span></div>
+                <p class="bonus">First project included. Additional projects from $10/mo.</p>
+                <span>See how pricing scales</span>
+                <hr>
+                <figure>
+                    <figcaption>Everything in Free, plus:</figcaption>
+                    <ul class="features">
+                        <li>100,000 monthly active users <span>then $0.00325 per MAU</span></li>
+                        
+                        <li>8 GB disk size per project <span>then $0.123 per GB</span></li>
+                        
+                        <li>250 GB egress <span>then $0.09 per GB</span></li>
+                        
+                        <li>250 GB cached egress  <span>then $0.03 per GB</span></li>
+                       
+                        <li>100 GB file storage <Span>then $0.0213 per GB</Span></li>
+                        
+                        <li>Email support <li>Daily backups stored for 7 days</li></li>
+                        
+                        <li>7-day log retention</li>
+                        <li>Add log drains  <span>additional $60 per drain, per project</span></li>
+                        
+                    </ul>
+                </figure>
+            </div>
+
+            <!-- card 3 : Team plan  -->
+
+            <div class="pricing-card team">
+                <h4>TEAM</h4>
+                <p class="desc">Add features such as SSO, control over backups, and industry certifications.</p>
+                <button class="btn">Get Started</button>
+                <span>From</span>
+                <div class="price">$599 <span class="amount">/ month</span></div>
+                <p class="bonus">First project included. Additional projects from $10/mo.</p>
+                <span>See how pricing scales</span>
+                <hr>
+                <figure>
+                    <figcaption>Everything in pro, plus:</figcaption>
+                    <ul class="features">
+                       <li>SOC2 & ISO 27001</li>
+                        <li>Project-scoped and read-only access</li>
+                        <li>HIPAA available as paid add-on</li>
+                        <li>SSO for Supabase Dashboard</li>
+                        <li>Priority email support & SLAs</li>
+                        <li>Daily backups stored for 14 days</li>
+                        <li>28-day log retention</li>
+                    </ul>
+                </figure>
+            </div>
+
+            <!-- card 4: enterprise plan -->
+
+            <div class="pricing-card enterprise">
+                <h4>ENTERPRISE</h4>
+                <p class="desc">For large-scale applications running Internet scale workloads.</p>
+                <button class="cta-btn">Contact Us</button>
+                
+                <div class="custom">Custom</div>
+                <hr>
+                <ul class="features cus">
+                    <li>Designated Support manager</li>
+                    <li>Uptime SLAs</li>
+                    <li>Supports AWS PrivateLink</li>
+                    <li>24×7×365 premium enterprise support</li>
+                    <li>Private Slack channel</li>
+                    <li>Custom Security Questionnaires</li>
+                </ul>
+                
+            </div>
+            
+            </div>
+            <button class="compare-btn">Compare Plans </button>
+        </div>     
+    </main>
+</body>
+</html>

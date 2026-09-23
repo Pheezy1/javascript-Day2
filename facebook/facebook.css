@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #1c1e21;
+}
+
+.main-container {
+    height: 690px;
+    display: flex;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.left-side {
+    width: 60%;
+    border-right: 2.5px solid #d9d9d9;
+    position: relative;
+    padding: 45px;
+}
+
+.facebook-logo img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    position: relative;
+    overflow: visible;
+    filter: brightness(0.97);
+    z-index: 10;
+}
+
+.facebook-logo {
+    position: relative;
+    z-index: 10;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    height: 640px;
+    margin-top: 5px;
+}
+
+.left-text {
+    width: 38%;
+    z-index: 2;
+}
+
+
+.left-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -2px;
+    transform: translateY(52px);
+}
+
+.dot {
+    display: inline-block;
+    vertical-align: sub;
+    font-size: 2rem;
+    
+}
+
+
+.left-text h1 span {
+    color: #1877f2;
+}
+
+.image-area {
+    width: 68%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    z-index: 1;
+}
+
+
+.image-area img {
+    width: 115%;
+    height: 110%;
+    object-fit: contain;
+    display: block;
+    transform: translate(4px, -117px);
+    z-index: 1;
+}
+
+.right-side {
+    width: 43.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 82%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.login-container h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login-container:focus {
+    background-color: none;
+    border: 3px solid #0866ff;
+}
+
+.login-container input {
+    width: 100%;
+    height: 61px;
+    border: 1px solid #c7c7c7;
+    border-radius: 16px;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 3px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 61px;
+    border: 1px solid #c7c7c7;
+    border-radius: 16px;
+    padding: 20px 16px 5px;
+    font-size: 16px;
+    outline: none;
+    background: white;
+}
+
+.input-container label {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+}
+
+.input-container input:valid + label {
+    top: 10px;
+    transform: translateY(0);
+    font-size: 12px;
+    color: #65676b;
+}
+
+.input-container input:focus {
+    border: 3px solid #0b66ff;
+}
+
+.login-button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+
+.login-button:hover {
+    background-color: #075bd8;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #070809;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 12px;
+}
+
+.forgot-password:hover {
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #edf0f4;
+    color: rgb(20, 1, 1);
+    cursor: pointer;
+}
+
+.create-account {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: 1.9px solid #8fc8ed;
+    border-radius: 25px;
+    color: #0866ff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.create-account:hover {
+    background-color: #f6f8fa;
+}
+
+.meta {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta img {
+    width: 12%;
+    height: 12px;
+}
+
+footer {
+    width: 100%;
+    /* min-height: 170px; */
+    padding: 30px 40px 10px 40px;
+    text-align: center;
+    color: #737373;
+    font-size: 12px;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 27px;
+  align-items: center;
+  
+}
+
+
+.languages a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.languages a:hover {
+    text-decoration: none;
+}
+
+
+

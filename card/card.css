@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+   background-color: rgb(5, 58, 58);
+   height: 80px;
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   justify-content: space-between;
+   font-family: "montserrat";
+   font-size: 28px;
+   margin: bottom 5px;
+    
+}
+.header .logo p span {
+    font-size: 18px;
+    color: blueviolet;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;   
+}
+
+#products  {
+    width: 17px;
+    height: 15px;
+    padding: 0 12px;
+    border-radius: 5px;  
+    border: 1px solid black; 
+}
+
+option {
+    font-weight: 900;
+}
+
+#product, #products {
+    
+    padding: 0.02em;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "montserrat", Arial;
+    padding: 10px;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(4, 15, 15);
+    border-radius: 10px;
+}
+
+.header .btn2 {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: "montserrat", Arial;
+    font-size: large;
+    cursor: pointer;
+}
+
+.header .btn:hover {
+    border-radius: 10px;
+    background-color: teal;
+    border: 1px solid white;
+}
+
+.pricing {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;
+    min-height: 110vh;
+    gap: 30px; 
+}
+
+.pricing-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px;
+    
+    /* flex-wrap: wrap; */
+}
+
+.pricing-card {
+    flex-wrap:wrap;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.3);
+    padding: 15px;
+    border-radius: 5px;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+/* Hover Zoom Effect */
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+Highlighted Plan Modifier
+.pricing-card.highlighted {
+    border: 2px solid #4f46e5;
+    transform: scale(1.03);
+}
+
+.pricing-card.highlighted:hover {
+    transform: scale(1.03) translateY(-10px);
+}
+
+.popular {
+    border: 2px solid black;
+}
+
+.bonus {
+    font-size: 0.8rem;
+}
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size:1.5rem;
+    margin: 5px 0 15px 0;
+}
+.badge {
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 4px;
+    border: 3px solid black;
+    vertical-align:middle;
+    padding: 2px 4px;
+}
+
+strong {
+    font-weight: bolder;   
+}
+
+.free {
+    opacity: 0.5;
+    font-size: 0.7rem
+}
+
+hr {
+    margin: 23px 0;
+    border: 1px solid whitesmoke;
+}
+
+figcaption {
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+
+.pro, .badge {
+    display: inline;
+    vertical-align:text-top;
+    
+}
+
+.amount {
+    display: inline;
+}
+span {
+    opacity: 0.5;
+    font-size: 0.7rem;
+    display: block;
+}
+
+.features {
+    margin: 15px 0 40px 0;
+    list-style: none;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.features li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 0.7rem;
+    
+}
+
+.features li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #10b981;
+}
+.cus li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: black;
+}
+
+
+.desc {
+    opacity: 0.8;
+    font-size: 0.7rem;
+}
+
+h4, .desc {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 20px 0;
+    background-color: #73cea2;
+    width: 100%;
+    height: 35px;
+}
+.cta-btn {
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 20px 0;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+}
+
+.btn:hover , .cta-btn:hover {
+    background-color: teal;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.compare-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.compare-btn:hover {
+    background-color: rgb(74, 110, 110);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.compare-btn::after {
+    content: "ↆ";
+    color: white;
+    position: relative;
+    right: 0;
+    font-weight: bold;
+    margin-right: 1px;
+    padding: 3px 4px;
+}
+
+
+
+
+
+
+
+

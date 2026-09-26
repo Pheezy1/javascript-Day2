@@ -1,61 +1,61 @@
-// EXERCISE: LEVEL 1
+ //EXERCISE: LEVEL 1
 
 
-// let challenge = '30 Days of Javascript'
-// console.log(challenge)
-// console.log(challenge.length)
-// console.log(challenge.toUpperCase())
-// console.log(challenge.toLowerCase())
-// console.log(challenge.substr(0, 2))
-// console.log(challenge.substring(3, 21))
-// console.log(challenge.includes('script'))
-// console.log(challenge.split())
-// console.log(challenge.split(" "))
+let challenge = '30 Days of Javascript'
+console.log(challenge)
+console.log(challenge.length)
+console.log(challenge.toUpperCase())
+console.log(challenge.toLowerCase())
+console.log(challenge.substr(0, 2))
+console.log(challenge.substring(3, 21))
+console.log(challenge.includes('script'))
+console.log(challenge.split())
+console.log(challenge.split(" "))
 
-// let socials ='Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-// console.log(socials.split(", "))
+let socials ='Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+console.log(socials.split(", "))
 
-// console.log(challenge.replace('Javascript', 'Python'))
-// console.log(challenge.charAt(15))
-// console.log(challenge.charCodeAt(11))
-// console.log(challenge.indexOf('a'))
-// console.log(challenge.lastIndexOf('a'))
+console.log(challenge.replace('Javascript', 'Python'))
+console.log(challenge.charAt(15))
+console.log(challenge.charCodeAt(11))
+console.log(challenge.indexOf('a'))
+console.log(challenge.lastIndexOf('a'))
 
-// let english = ' You cannot end a sentence with because because because is a conjuction '
-// console.log(english.indexOf('because'))
-// console.log(english.lastIndexOf('because'))
-// console.log(english.search('because'))
-// console.log(english)
-// console.log(english.trim(''))
-// console.log(challenge.startsWith('30'))
-// console.log(challenge.endsWith('Javascript'))
+let english = ' You cannot end a sentence with because because because is a conjuction '
+console.log(english.indexOf('because'))
+console.log(english.lastIndexOf('because'))
+console.log(english.search('because'))
+console.log(english)
+console.log(english.trim(''))
+console.log(challenge.startsWith('30'))
+console.log(challenge.endsWith('Javascript'))
 
-// let regEx = /a/gi
-// console.log(challenge.match(regEx))
+let regEx = /a/gi
+console.log(challenge.match(regEx))
 
-// let string = '30 Days of'
-// let value = ' Javascript'
-// console.log(string.concat(value))
-// console.log(challenge.repeat(2))
-
-
-// // EXERCISE:  LEVEL 2
+let string = '30 Days of'
+let value = ' Javascript'
+console.log(string.concat(value))
+console.log(challenge.repeat(2))
 
 
-// console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
-// console.log("'Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.'")
+// EXERCISE:  LEVEL 2
 
-// let num1 = '10';
-// if (typeof num1 !== typeof 10) {
-//     num1 = Number(num1);
-// }
-// console.log(num1 === 10); 
 
-// let num2 = parseFloat('9.8');
-// if (num2 !== 10) {
-//     num2 = Math.ceil(num2); 
-// }
-// console.log(num2 === 10); 
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
+console.log("'Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.'")
+
+let num1 = '10';
+if (typeof num1 !== typeof 10) {
+    num1 = Number(num1);
+}
+console.log(num1 === 10); 
+
+let num2 = parseFloat('9.8');
+if (num2 !== 10) {
+    num2 = Math.ceil(num2); 
+}
+console.log(num2 === 10); 
 
 let check1 = 'python'
 let check2 = 'jargon'
